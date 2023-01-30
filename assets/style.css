@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400;900&display=swap");
+body {
+  font-family: "Prompt", sans-serif;
+  background-image: url("img/background.png");
+  color: #092F4B;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 11vw;
+  margin-bottom: -5vw;
+}
+
+h2 {
+  font-size: 4vw;
+  font-style: italic;
+}
+
+.bienvenue {
+  margin: 5vw;
+  text-align: center;
+  font-size: 4vw;
+}
+
+.hackers-poulette {
+  font-weight: 700;
+}
+
+.remplir {
+  background-color: #9ae1d0;
+}
+
+main {
+  line-height: 12vw;
+}
+
+.nom-label {
+  font-weight: 600;
+}
+
+.prenom-label {
+  font-weight: 600;
+}
+
+.email-label {
+  font-weight: 600;
+}
+
+.comment-label {
+  font-weight: 600;
+}
+
+.div-button {
+  display: flex;
+  justify-content: center;
+  margin: 8vw;
+}
+
+.button-go {
+  font-size: 6vw;
+  font-weight: 700;
+  color: #092F4B;
+  background-color: #ffe0df;
+  text-align: center;
+  width: 22vw;
+  height: 12vw;
+  border: none;
+  border-radius: 8%;
+}
+
+footer {
+  text-align: center;
+  font-size: 3vw;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 5vw;
+  }
+  h2 {
+    font-size: 2vw;
+    font-style: italic;
+    margin-top: 3.7vw;
+  }
+  .bienvenue {
+    margin: 3vw 5vw 3vw 5vw;
+    font-size: 1.5vw;
+    text-align: center;
+  }
+  .hackers-poulette {
+    font-weight: 700;
+  }
+  .remplir {
+    background-color: #9ae1d0;
+  }
+  main {
+    line-height: 4vw;
+    margin: 0vw 29vw 0vw 29vw;
+    padding: 3vw 3vw 1vw 3vw;
+  }
+  .nom-label {
+    font-weight: 500;
+    font-size: 2vw;
+    padding-right: 1vw;
+  }
+  #nom {
+    width: 24vw;
+    height: 3vw;
+  }
+  .prenom-label {
+    font-weight: 500;
+    font-size: 2vw;
+    padding-right: 1vw;
+  }
+  #prenom {
+    width: 21vw;
+    height: 3vw;
+  }
+  .email-label {
+    font-weight: 500;
+    font-size: 2vw;
+    padding-right: 1vw;
+  }
+  #email {
+    width: 31vw;
+    height: 3vw;
+  }
+  .comment-label {
+    font-weight: 500;
+    font-size: 2vw;
+    padding-right: 1vw;
+  }
+  #comment {
+    width: 31vw;
+    height: 15vw;
+  }
+  .div-button {
+    display: flex;
+    justify-content: center;
+    margin: 1vw;
+  }
+  .button-go {
+    font-size: 2vw;
+    font-weight: 700;
+    color: #092F4B;
+    background-color: #9ae1d0;
+    text-align: center;
+    width: 7vw;
+    height: 4vw;
+    border: none;
+    border-radius: 8%;
+    cursor: pointer;
+  }
+  footer {
+    text-align: center;
+    font-size: 1vw;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 5vw;
+  }
+  h2 {
+    font-size: 2vw;
+    font-style: italic;
+    margin-top: 3.7vw;
+  }
+  .bienvenue {
+    margin: 3vw 5vw 3vw 5vw;
+    font-size: 1.5vw;
+    text-align: center;
+  }
+  .hackers-poulette {
+    font-weight: 700;
+  }
+  .remplir {
+    background-color: #9ae1d0;
+  }
+  main {
+    line-height: 4vw;
+    margin: 0vw 29vw 0vw 29vw;
+    padding: 3vw 3vw 1vw 3vw;
+  }
+  .nom-label {
+    font-weight: 500;
+    font-size: 2vw;
+    padding-right: 1vw;
+  }
+  #nom {
+    width: 24vw;
+    height: 3vw;
+  }
+  .prenom-label {
+    font-weight: 500;
+    font-size: 2vw;
+    padding-right: 1vw;
+  }
+  #prenom {
+    width: 21vw;
+    height: 3vw;
+  }
+  .email-label {
+    font-weight: 500;
+    font-size: 2vw;
+    padding-right: 1vw;
+  }
+  #email {
+    width: 31vw;
+    height: 3vw;
+  }
+  .comment-label {
+    font-weight: 500;
+    font-size: 2vw;
+    padding-right: 1vw;
+  }
+  #comment {
+    width: 31vw;
+    height: 15vw;
+  }
+  .div-button {
+    display: flex;
+    justify-content: center;
+    margin: 1vw;
+  }
+  .button-go {
+    font-size: 2vw;
+    font-weight: 700;
+    color: #092F4B;
+    background-color: #9ae1d0;
+    text-align: center;
+    width: 7vw;
+    height: 4vw;
+    border: none;
+    border-radius: 8%;
+    cursor: pointer;
+  }
+  footer {
+    text-align: center;
+    font-size: 1vw;
+  }
+}/*# sourceMappingURL=style.css.map */
