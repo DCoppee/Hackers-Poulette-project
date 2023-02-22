@@ -1,23 +1,26 @@
-# Hackers Poulette
+# Hackers Poulette Project
 
-## What's in it
+This solo project was realized during my Web Dev training @BeCode. It is part of the PHP learning.
 
-Solo project as part of my WebDev training @BeCode (01-31-2023)
+## What is Hackers Poulette ?
 
-## The mission
+The company Hackers Poulette™ sells Raspberry Pi accessory kits to build your own. They want to allow their users to contact their support team. 
 
-    The company Hackers Poulette™ sells Raspberry Pi accessory kits to build your own. They want to allow their users to contact their support team. My mission was to create a fully-functioning online "contact support" form, in PHP. It must display a contact form and process the received answer (sanitize, validate, answer the user).
+## Mission
 
-##  Features
+My mission was to create a fully-functioning online "contact support" form, in PHP. It had to display a contact form and process the received answer (sanitize, validate, answer the user).
+
+##  Languages and features
 
 * Use of PHP (not exclusively) 
 * Database with PDO connection
-* Semantically valid and accessible form's html code
+* Semantically valid and accessible form's HTML code
 * Useful visual clue about the error in case of wrong input, below the input field
-* Readable and helpful error message (and funny)
+* Readable and helpful (and funny) error message
 * Sanitised and validated data (server side)
 * Data send to the database once the form is validated
 * Spam prevention using honeypot
+* Use of SASS
 * Responsive format
 * Nice visual
 
