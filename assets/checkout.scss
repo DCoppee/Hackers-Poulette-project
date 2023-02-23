@@ -1,0 +1,33 @@
+@import 'mixin';
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;900&display=swap');
+body {
+    font-family: 'Prompt', sans-serif;
+    background-image: url("img/background.png");
+    color: #092F4B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .p-checkout {
+        text-align: center;
+        @include tablet {
+            font-size: 2vw;
+        }
+    }
+    .btn-retour {
+        font-family: 'Prompt', sans-serif;
+        font-size: 6vw;
+        color: #092F4B;
+        background-color:#9ae1d0;
+        text-align: center;
+        border: none; 
+        border-radius:8%;
+        @include tablet {
+            font-size: 2vw;
+        }
+    }
+    .a-retour {
+        font-size: 1.5vw;
+    }
+}

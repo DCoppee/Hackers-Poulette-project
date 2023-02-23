@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400;900&display=swap");
+body {
+  font-family: "Prompt", sans-serif;
+  background-image: url("img/background.png");
+  color: #092F4B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .p-error {
+  text-align: center;
+}
+body .btn-retour {
+  font-family: "Prompt", sans-serif;
+  font-size: 6vw;
+  color: #092F4B;
+  background-color: #9ae1d0;
+  text-align: center;
+  border: none;
+  border-radius: 8%;
+}
+@media screen and (min-width: 768px) {
+  body .btn-retour {
+    font-size: 2vw;
+  }
+}/*# sourceMappingURL=error.css.map */

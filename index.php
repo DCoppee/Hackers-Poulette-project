@@ -7,13 +7,13 @@
     <title>Hackers Poulette</title>
 </head>
 <body>
-    <header>
-        <h1>Hackers Poulette</h1>
-        <h2>comme sur des roulettes !</h2>
+    <header class="header-container">
+        <h1 class="titre1">Hackers Poulette</h1>
+        <h2 class="titre2">comme sur des roulettes !</h2>
             <p class="bienvenue">Bienvenue sur la page de contact de <span class="hackers-poulette"> Hackers Poulette</span>. Notre dream team de support est au taquet pour vous aider ! <span class="remplir">Merci de remplir le formulaire ci-dessous</span>, nous vous répondrons illico presto !</p>
     </header>
 
-    <main>
+    <main class="main-container">
 <?php
   if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Récupérer les données du formulaire
@@ -129,6 +129,6 @@
 </form>
 </main>
 
-<footer>Vaillamment réalisé par <a href=" https://github.com/DCoppee ">Dominique</a> pour <a href="https://becode.org">BeCode</a></footer>
+<footer class="footer-container">Vaillamment réalisé par <a href=" https://github.com/DCoppee ">Dominique</a> pour <a href="https://becode.org">BeCode</a></footer>
 </body>
 </html>
